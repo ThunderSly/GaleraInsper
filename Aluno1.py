@@ -1,6 +1,5 @@
-def Numeros():
+def Numeros(x):
 	lista=[]
-	x=int(input("Digite quantos numero quer adicionar a lista: "))
 	for i in range(x):
 		y=int(input("Digite o numero que deseja adicionar a lista: "))
 		lista.append(y)
